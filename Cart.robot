@@ -62,3 +62,16 @@ Termék eltávolítása a kosárból
     Page Should Contain    Sauce Labs Bolt T-Shirt
     Sleep    1s
     Close Browser
+
+Main page termék árának összehasonlítása a kosárban lévő változatával
+    Login To Saucedemo mainpage
+    Sleep    1s
+    ${main_page_price}=    Get Text    //*[@id="inventory_container"]/div/div[1]/div[2]/div[2]/div
+    Add items to cart
+    Sleep    1s
+    Click Element    //*[@id="shopping_cart_container"]/a
+    Sleep    1s
+    ${cart_price}=    Get Text    //*[@id="cart_contents_container"]/div/div[1]/div[3]/div[2]/div[2]/div
+    Should Be Equal As Strings    ${main_page_price}    ${cart_price}
+    Sleep    1s
+    Close Browser
