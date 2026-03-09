@@ -1,0 +1,208 @@
+1773041860983	geckodriver	INFO	Listening on 127.0.0.1:58508
+1773041864080	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58509" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\NAGYTA~1\\AppData\\Local\\Temp\\rust_mozprofilepPd7Sn"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1773041864375	Marionette	INFO	Marionette enabled
+1773041864540	Marionette	INFO	Listening on port 59628
+WebDriver BiDi listening on ws://127.0.0.1:58509
+Read port: 59628
+1773041864662	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-146 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14802025121163751-to-release-14702 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-beta not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-release-14703 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-14912026012151415-to-release-14703-14704 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: RSLoader: Recipe new-tab-149220260220204414-to-release-148 not returned from collection nimbus-secure-experiments because it contains feature newtabTrainhopAddon, which is disallowed for that collection.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+JavaScript warning: https://www.saucedemo.com/static/js/main.bcf4bc5f.js, line 2: Script terminated by timeout at:
+Jt@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:313603
+
+JavaScript warning: https://www.saucedemo.com/static/js/main.bcf4bc5f.js, line 2: Script terminated by timeout at:
+Jt@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:313603
+
+JavaScript warning: https://www.saucedemo.com/static/js/main.bcf4bc5f.js, line 2: Script terminated by timeout at:
+Jt@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:313603
+
+JavaScript warning: https://www.saucedemo.com/static/js/main.bcf4bc5f.js, line 2: Script terminated by timeout at:
+c@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:166717
+kr<@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:644319
+sa@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:349343
+Wa@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:358886
+qs@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:402632
+Mu@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:388897
+Tu@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:388825
+Cu@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:388686
+wu@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:385652
+82730/qi/<@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:335140
+27234/t.unstable_runWithPriority@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:96789
+Hi@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:334918
+qi@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:335088
+Qi@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:335021
+82730/Re/<@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:406325
+Re@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:406330
+De@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:305372
+82730/Rr/<@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:326564
+Rr@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:326570
+$t@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:314620
+Kt@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:313846
+27234/t.unstable_runWithPriority@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:96789
+Hi@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:334918
+Ne@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:406124
+Jt@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:313638
+
+JavaScript warning: https://www.saucedemo.com/static/js/main.bcf4bc5f.js, line 2: Script terminated by timeout at:
+Jt@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:313603
+
+JavaScript warning: https://www.saucedemo.com/static/js/main.bcf4bc5f.js, line 2: Script terminated by timeout at:
+Jt@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:313603
+
+JavaScript warning: https://www.saucedemo.com/static/js/main.bcf4bc5f.js, line 2: Script terminated by timeout at:
+Jt@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:313603
+
+JavaScript warning: https://www.saucedemo.com/static/js/main.bcf4bc5f.js, line 2: Script terminated by timeout at:
+Jt@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:313603
+
+JavaScript warning: https://www.saucedemo.com/static/js/main.bcf4bc5f.js, line 2: Script terminated by timeout at:
+Jt@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:313603
+
+JavaScript warning: https://www.saucedemo.com/static/js/main.bcf4bc5f.js, line 2: Script terminated by timeout at:
+Jt@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:313603
+
+JavaScript warning: https://www.saucedemo.com/static/js/main.bcf4bc5f.js, line 2: Script terminated by timeout at:
+Jt@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:313603
+
+JavaScript warning: https://www.saucedemo.com/static/js/main.bcf4bc5f.js, line 2: Script terminated by timeout at:
+Jt@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:313603
+
+JavaScript warning: https://www.saucedemo.com/static/js/main.bcf4bc5f.js, line 2: Script terminated by timeout at:
+ie@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:300591
+ne@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:300067
+Oe@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:405708
+Ie@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:305067
+je@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:305187
+De@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:305377
+82730/Rr/<@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:326564
+Rr@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:326570
+$t@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:314620
+Kt@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:313846
+27234/t.unstable_runWithPriority@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:96789
+Hi@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:334918
+Ne@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:406124
+Jt@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:313638
+
+JavaScript warning: https://www.saucedemo.com/static/js/main.bcf4bc5f.js, line 2: Script terminated by timeout at:
+Jt@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:313603
+
+JavaScript warning: https://www.saucedemo.com/static/js/main.bcf4bc5f.js, line 2: Script terminated by timeout at:
+Jt@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:313603
+
+JavaScript warning: https://www.saucedemo.com/static/js/main.bcf4bc5f.js, line 2: Script terminated by timeout at:
+ie@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:300591
+ne@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:300067
+Oe@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:405708
+Ie@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:305067
+je@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:305187
+De@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:305377
+82730/Rr/<@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:326564
+Rr@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:326570
+$t@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:314620
+Kt@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:313846
+27234/t.unstable_runWithPriority@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:96789
+Hi@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:334918
+Ne@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:406124
+Jt@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:313638
+
+JavaScript warning: https://www.saucedemo.com/static/js/main.bcf4bc5f.js, line 2: Script terminated by timeout at:
+Jt@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:313603
+
+JavaScript warning: https://www.saucedemo.com/static/js/main.bcf4bc5f.js, line 2: Script terminated by timeout at:
+Jt@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:313603
+
+JavaScript warning: https://www.saucedemo.com/static/js/main.bcf4bc5f.js, line 2: Script terminated by timeout at:
+Jt@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:313603
+
+JavaScript warning: https://www.saucedemo.com/static/js/main.bcf4bc5f.js, line 2: Script terminated by timeout at:
+Jt@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:313603
+
+JavaScript warning: https://www.saucedemo.com/static/js/main.bcf4bc5f.js, line 2: Script terminated by timeout at:
+82730/Rr/</y<@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:330045
+82730/Rr/<@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:330203
+Fe@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:406383
+82730/Rr/<@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:326540
+Rr@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:326570
+$t@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:314620
+Kt@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:313846
+27234/t.unstable_runWithPriority@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:96789
+Hi@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:334918
+Ne@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:406124
+Jt@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:313638
+
+JavaScript warning: https://www.saucedemo.com/static/js/main.bcf4bc5f.js, line 2: Script terminated by timeout at:
+Jt@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:313603
+
+JavaScript warning: https://www.saucedemo.com/static/js/main.bcf4bc5f.js, line 2: Script terminated by timeout at:
+Jt@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:313603
+
+JavaScript warning: https://www.saucedemo.com/static/js/main.bcf4bc5f.js, line 2: Script terminated by timeout at:
+Jt@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:313603
+
+JavaScript warning: https://www.saucedemo.com/static/js/main.bcf4bc5f.js, line 2: Script terminated by timeout at:
+Jt@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:313603
+
+JavaScript warning: https://www.saucedemo.com/static/js/main.bcf4bc5f.js, line 2: Script terminated by timeout at:
+Jt@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:313603
+
+JavaScript warning: https://www.saucedemo.com/static/js/main.bcf4bc5f.js, line 2: Script terminated by timeout at:
+Jt@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:313603
+
+JavaScript warning: https://www.saucedemo.com/static/js/main.bcf4bc5f.js, line 2: Script terminated by timeout at:
+Jt@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:313603
+
+JavaScript warning: https://www.saucedemo.com/static/js/main.bcf4bc5f.js, line 2: Script terminated by timeout at:
+Jt@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:313603
+
+JavaScript warning: https://www.saucedemo.com/static/js/main.bcf4bc5f.js, line 2: Script terminated by timeout at:
+Jt@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:313603
+
+JavaScript warning: https://www.saucedemo.com/static/js/main.bcf4bc5f.js, line 2: Script terminated by timeout at:
+Jt@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:313603
+
+JavaScript warning: https://www.saucedemo.com/static/js/main.bcf4bc5f.js, line 2: Script terminated by timeout at:
+Jt@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:313603
+
+JavaScript warning: https://www.saucedemo.com/static/js/main.bcf4bc5f.js, line 2: Script terminated by timeout at:
+Jt@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:313603
+
+JavaScript warning: https://www.saucedemo.com/static/js/main.bcf4bc5f.js, line 2: Script terminated by timeout at:
+82730/Rr/<@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:327613
+82730/Rr/<@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:326516
+Rr@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:326570
+$t@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:314620
+Kt@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:313846
+27234/t.unstable_runWithPriority@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:96789
+Hi@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:334918
+Ne@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:406124
+Jt@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:313638
+
+JavaScript warning: https://www.saucedemo.com/static/js/main.bcf4bc5f.js, line 2: Script terminated by timeout at:
+Jt@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:313603
+
+JavaScript warning: https://www.saucedemo.com/static/js/main.bcf4bc5f.js, line 2: Script terminated by timeout at:
+Jt@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:313603
+
+JavaScript warning: https://www.saucedemo.com/static/js/main.bcf4bc5f.js, line 2: Script terminated by timeout at:
+Jt@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:313603
+
+JavaScript warning: https://www.saucedemo.com/static/js/main.bcf4bc5f.js, line 2: Script terminated by timeout at:
+Jt@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:313603
+
+JavaScript error: resource:///modules/sessionstore/SessionStore.sys.mjs, line 2732: TypeError: subject.QueryInterface is not a function
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+console.error: "There was an error sending FormAutofill:onFieldsDetectedComplete message" "Actor 'FormAutofill' destroyed before query 'FormAutofill:onFieldsDetectedComplete' was resolved"
+1773041919990	Marionette	INFO	Stopped listening on port 59628
+Dynamically enable window occlusion 1
+console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://services-settings/RemoteSettingsClient.sys.mjs, line 101: Error: Unknown callback
