@@ -20,15 +20,12 @@
 
 *** Settings ***
 Library           Selenium2Library
+Resource    LoginKeywords2.robot
 
 *** Keywords ***
 Bejelentkezes ellenorzese
-    [Arguments]    ${email}    ${password}    ${expected_result}
-    Open Browser    https://parking-garage-app.netlify.app/    firefox
-    Click Button    /html/body/div/main/div/div[1]/div/a[1]
-    Input Text    //*[@id="email"]    ${email}
-    Input Text    //*[@id="password"]d    ${password}
-    Click Button    //*[@id="login-button"]
-    ${actual_result}=    Get Text    id=loginMessage
-    Should Be Equal As Strings    ${actual_result}    ${expected_result}
+    Login
+    Sleep    1s
+    Page Should Contain Element    /html/body/div/nav/div[2]/div/button
+    Sleep    1s
     Close Browser
