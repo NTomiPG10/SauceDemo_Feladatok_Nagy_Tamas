@@ -1,108 +1,273 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.4.1 (Python 3.13.5 on win32)" generated="2026-03-09T09:19:15.361661" rpa="false" schemaversion="5">
+<robot generator="Robot 7.4.1 (Python 3.13.5 on win32)" generated="2026-03-23T08:37:16.958927" rpa="false" schemaversion="5">
 <suite id="s1" name="SauceDemo Feladatok Nagy Tamas" source="C:\Users\NagyTamas\Documents\GitHub\SauceDemo_Feladatok_Nagy_Tamas">
-<suite id="s1-s1" name="Checkout validation" source="C:\Users\NagyTamas\Documents\GitHub\SauceDemo_Feladatok_Nagy_Tamas\Checkout_validation.robot">
-<test id="s1-s1-t1" name="Checkout cancellation with Cancel button" line="104">
-<kw name="Login with standard user" owner="LoginKeywords">
+<suite id="s1-s1" name="Cart" source="C:\Users\NagyTamas\Documents\GitHub\SauceDemo_Feladatok_Nagy_Tamas\Cart.robot">
+<test id="s1-s1-t1" name="Több termék hozzáadása" line="35">
+<kw name="Login To Saucedemo mainpage">
 <kw name="Open Browser" owner="Selenium2Library">
-<msg time="2026-03-09T09:19:15.655915" level="INFO">Opening browser 'firefox' to base url 'https://www.saucedemo.com/'.</msg>
+<msg time="2026-03-23T08:37:17.288021" level="INFO">Opening browser 'firefox' to base url 'https://www.saucedemo.com/'.</msg>
+<msg time="2026-03-23T08:37:17.500657" level="WARN">Error sending stats to Plausible: error sending request for url (https://plausible.io/api/event)</msg>
 <arg>https://www.saucedemo.com/</arg>
 <arg>firefox</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2026-03-09T09:19:15.655595" elapsed="6.101942"/>
+<status status="PASS" start="2026-03-23T08:37:17.287687" elapsed="7.049770"/>
 </kw>
 <kw name="Input Text" owner="Selenium2Library">
-<msg time="2026-03-09T09:19:21.758563" level="INFO">Typing text 'standard_user' into text field 'id=user-name'.</msg>
+<msg time="2026-03-23T08:37:24.338377" level="INFO">Typing text 'standard_user' into text field 'id=user-name'.</msg>
 <arg>id=user-name</arg>
 <arg>standard_user</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2026-03-09T09:19:21.757962" elapsed="0.097950"/>
+<status status="PASS" start="2026-03-23T08:37:24.337793" elapsed="0.109256"/>
 </kw>
 <kw name="Input Password" owner="Selenium2Library">
-<msg time="2026-03-09T09:19:21.856801" level="INFO">Typing password into text field 'id=password'.</msg>
-<msg time="2026-03-09T09:19:21.863348" level="INFO">Temporally setting log level to: NONE</msg>
+<msg time="2026-03-23T08:37:24.447792" level="INFO">Typing password into text field 'id=password'.</msg>
+<msg time="2026-03-23T08:37:24.453757" level="INFO">Temporally setting log level to: NONE</msg>
 <arg>id=password</arg>
 <arg>secret_sauce</arg>
 <doc>Types the given password into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2026-03-09T09:19:21.856303" elapsed="0.034976"/>
+<status status="PASS" start="2026-03-23T08:37:24.447391" elapsed="0.031704"/>
 </kw>
 <kw name="Click Button" owner="Selenium2Library">
-<msg time="2026-03-09T09:19:21.891827" level="INFO">Clicking button 'id=login-button'.</msg>
+<msg time="2026-03-23T08:37:24.479895" level="INFO">Clicking button 'id=login-button'.</msg>
 <arg>id=login-button</arg>
 <doc>Clicks the button identified by ``locator``.</doc>
-<status status="PASS" start="2026-03-09T09:19:21.891502" elapsed="0.127962"/>
+<status status="PASS" start="2026-03-23T08:37:24.479410" elapsed="0.112938"/>
 </kw>
-<status status="PASS" start="2026-03-09T09:19:15.654754" elapsed="6.364907"/>
+<status status="PASS" start="2026-03-23T08:37:17.286845" elapsed="7.305818"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2026-03-09T09:19:23.021196" level="INFO">Slept 1 second.</msg>
+<msg time="2026-03-23T08:37:25.593985" level="INFO">Slept 1 second.</msg>
 <arg>1s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2026-03-09T09:19:22.020005" elapsed="1.002106"/>
+<status status="PASS" start="2026-03-23T08:37:24.593040" elapsed="1.001976"/>
+</kw>
+<kw name="Add items to cart">
+<kw name="Click Element" owner="Selenium2Library">
+<msg time="2026-03-23T08:37:25.599942" level="INFO">Clicking element '//*[@id="add-to-cart-sauce-labs-backpack"]'.</msg>
+<arg>//*[@id="add-to-cart-sauce-labs-backpack"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-03-23T08:37:25.598983" elapsed="0.086843"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-03-23T08:37:26.688621" level="INFO">Slept 1 second.</msg>
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-03-23T08:37:25.686626" elapsed="1.002274"/>
 </kw>
 <kw name="Click Element" owner="Selenium2Library">
-<msg time="2026-03-09T09:19:23.025195" level="INFO">Clicking element '//*[@id="shopping_cart_container"]/a'.</msg>
+<msg time="2026-03-23T08:37:26.689561" level="INFO">Clicking element '//*[@id="add-to-cart-sauce-labs-bike-light"]'.</msg>
+<msg time="2026-03-23T08:37:27.166751" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: WebDriver session does not exist, or is not active; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+InvalidSessionIDError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:469:5
+assert.that/&lt;@chrome://remote/content/shared/webdriver/Assert.sys.mjs:559:13
+assert.session@chrome://remote/content/shared/webdriver/Assert.sys.mjs:37:4
+despatch@chrome://remote/content/marionette/server.sys.mjs:315:19
+execute@chrome://remote/content/marionette/server.sys.mjs:289:16
+onPacket/&lt;@chrome://remote/content/marionette/server.sys.mjs:262:20
+onPacket@chrome://remote/content/marionette/server.sys.mjs:263:9
+_onJSONObjectReady/&lt;@chrome://remote/content/marionette/transport.sys.mjs:494:20
+</msg>
+<msg time="2026-03-23T08:37:27.187699" level="FAIL">NoSuchWindowException: Message: Browsing context has been discarded
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchWindowError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:747:5
+assert.that/&lt;@chrome://remote/content/shared/webdriver/Assert.sys.mjs:559:13
+assert.open@chrome://remote/content/shared/webdriver/Assert.sys.mjs:147:4
+GeckoDriver.prototype.findElements@chrome://remote/content/marionette/driver.sys.mjs:1838:15
+despatch@chrome://remote/content/marionette/server.sys.mjs:318:40
+execute@chrome://remote/content/marionette/server.sys.mjs:289:16
+onPacket/&lt;@chrome://remote/content/marionette/server.sys.mjs:262:20
+onPacket@chrome://remote/content/marionette/server.sys.mjs:263:9
+_onJSONObjectReady/&lt;@chrome://remote/content/marionette/transport.sys.mjs:494:20
+</msg>
+<arg>//*[@id="add-to-cart-sauce-labs-bike-light"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="FAIL" start="2026-03-23T08:37:26.689098" elapsed="0.614995">NoSuchWindowException: Message: Browsing context has been discarded
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchWindowError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:747:5
+assert.that/&lt;@chrome://remote/content/shared/webdriver/Assert.sys.mjs:559:13
+assert.open@chrome://remote/content/shared/webdriver/Assert.sys.mjs:147:4
+GeckoDriver.prototype.findElements@chrome://remote/content/marionette/driver.sys.mjs:1838:15
+despatch@chrome://remote/content/marionette/server.sys.mjs:318:40
+execute@chrome://remote/content/marionette/server.sys.mjs:289:16
+onPacket/&lt;@chrome://remote/content/marionette/server.sys.mjs:262:20
+onPacket@chrome://remote/content/marionette/server.sys.mjs:263:9
+_onJSONObjectReady/&lt;@chrome://remote/content/marionette/transport.sys.mjs:494:20
+</status>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2026-03-23T08:37:27.304357" elapsed="0.000148"/>
+</kw>
+<kw name="Click Element" owner="Selenium2Library">
+<arg>//*[@id="add-to-cart-sauce-labs-bolt-t-shirt"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2026-03-23T08:37:27.304646" elapsed="0.000112"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2026-03-23T08:37:27.304881" elapsed="0.000100"/>
+</kw>
+<status status="FAIL" start="2026-03-23T08:37:25.596963" elapsed="1.708186">NoSuchWindowException: Message: Browsing context has been discarded
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchWindowError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:747:5
+assert.that/&lt;@chrome://remote/content/shared/webdriver/Assert.sys.mjs:559:13
+assert.open@chrome://remote/content/shared/webdriver/Assert.sys.mjs:147:4
+GeckoDriver.prototype.findElements@chrome://remote/content/marionette/driver.sys.mjs:1838:15
+despatch@chrome://remote/content/marionette/server.sys.mjs:318:40
+execute@chrome://remote/content/marionette/server.sys.mjs:289:16
+onPacket/&lt;@chrome://remote/content/marionette/server.sys.mjs:262:20
+onPacket@chrome://remote/content/marionette/server.sys.mjs:263:9
+_onJSONObjectReady/&lt;@chrome://remote/content/marionette/transport.sys.mjs:494:20
+</status>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2026-03-23T08:37:27.305508" elapsed="0.000122"/>
+</kw>
+<kw name="Element Text Should Be" owner="Selenium2Library">
+<arg>id=shopping_cart_container</arg>
+<arg>3</arg>
+<doc>Verifies that element ``locator`` contains exact the text ``expected``.</doc>
+<status status="NOT RUN" start="2026-03-23T08:37:27.305887" elapsed="0.000136"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2026-03-23T08:37:27.306245" elapsed="0.000112"/>
+</kw>
+<kw name="Click Element" owner="Selenium2Library">
 <arg>//*[@id="shopping_cart_container"]/a</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2026-03-09T09:19:23.023708" elapsed="0.085158"/>
+<status status="NOT RUN" start="2026-03-23T08:37:27.306557" elapsed="0.000108"/>
+</kw>
+<kw name="Verify cart item count">
+<arg>3</arg>
+<status status="NOT RUN" start="2026-03-23T08:37:27.306928" elapsed="0.000108"/>
+</kw>
+<kw name="Page Should Contain" owner="Selenium2Library">
+<arg>Sauce Labs Backpack</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="NOT RUN" start="2026-03-23T08:37:27.307223" elapsed="0.000106"/>
+</kw>
+<kw name="Page Should Contain" owner="Selenium2Library">
+<arg>Sauce Labs Bike Light</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="NOT RUN" start="2026-03-23T08:37:27.307525" elapsed="0.000105"/>
+</kw>
+<kw name="Page Should Contain" owner="Selenium2Library">
+<arg>Sauce Labs Bolt T-Shirt</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="NOT RUN" start="2026-03-23T08:37:27.307823" elapsed="0.000104"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2026-03-09T09:19:24.110343" level="INFO">Slept 1 second.</msg>
 <arg>1s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2026-03-09T09:19:23.109266" elapsed="1.001895"/>
-</kw>
-<kw name="Click Element" owner="Selenium2Library">
-<msg time="2026-03-09T09:19:24.114149" level="INFO">Clicking element 'id=checkout'.</msg>
-<arg>id=checkout</arg>
-<doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2026-03-09T09:19:24.112711" elapsed="0.088054"/>
-</kw>
-<kw name="Sleep" owner="BuiltIn">
-<msg time="2026-03-09T09:19:25.202065" level="INFO">Slept 1 second.</msg>
-<arg>1s</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2026-03-09T09:19:24.201170" elapsed="1.001775"/>
-</kw>
-<kw name="Click Button" owner="Selenium2Library">
-<msg time="2026-03-09T09:19:25.206133" level="INFO">Clicking button 'id=cancel'.</msg>
-<arg>id=cancel</arg>
-<doc>Clicks the button identified by ``locator``.</doc>
-<status status="PASS" start="2026-03-09T09:19:25.204526" elapsed="0.100739"/>
-</kw>
-<kw name="Page Should Contain Element" owner="Selenium2Library">
-<msg time="2026-03-09T09:19:25.308899" level="INFO">Current page contains element 'id=checkout'.</msg>
-<arg>id=checkout</arg>
-<doc>Verifies that element ``locator`` is found on the current page.</doc>
-<status status="PASS" start="2026-03-09T09:19:25.305712" elapsed="0.003408"/>
-</kw>
-<kw name="Sleep" owner="BuiltIn">
-<msg time="2026-03-09T09:19:26.310613" level="INFO">Slept 1 second.</msg>
-<arg>1s</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2026-03-09T09:19:25.309495" elapsed="1.001963"/>
+<status status="NOT RUN" start="2026-03-23T08:37:27.308219" elapsed="0.000109"/>
 </kw>
 <kw name="Close Browser" owner="Selenium2Library">
 <doc>Closes the current browser.</doc>
-<status status="PASS" start="2026-03-09T09:19:26.313966" elapsed="2.888940"/>
+<status status="NOT RUN" start="2026-03-23T08:37:27.308516" elapsed="0.000104"/>
 </kw>
-<status status="PASS" start="2026-03-09T09:19:15.650943" elapsed="13.552641"/>
+<status status="FAIL" start="2026-03-23T08:37:17.282094" elapsed="10.026789">NoSuchWindowException: Message: Browsing context has been discarded
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchWindowError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:747:5
+assert.that/&lt;@chrome://remote/content/shared/webdriver/Assert.sys.mjs:559:13
+assert.open@chrome://remote/content/shared/webdriver/Assert.sys.mjs:147:4
+GeckoDriver.prototype.findElements@chrome://remote/content/marionette/driver.sys.mjs:1838:15
+despatch@chrome://remote/content/marionette/server.sys.mjs:318:40
+execute@chrome://remote/content/marionette/server.sys.mjs:289:16
+onPacket/&lt;@chrome://remote/content/marionette/server.sys.mjs:262:20
+onPacket@chrome://remote/content/marionette/server.sys.mjs:263:9
+_onJSONObjectReady/&lt;@chrome://remote/content/marionette/transport.sys.mjs:494:20
+</status>
 </test>
-<status status="PASS" start="2026-03-09T09:19:15.407550" elapsed="13.802818"/>
-</suite>
-<status status="PASS" start="2026-03-09T09:19:15.366547" elapsed="13.849308"/>
-</suite>
-<statistics>
-<total>
-<stat pass="1" fail="0" skip="0">All Tests</stat>
-</total>
-<tag>
-</tag>
-<suite>
-<stat name="SauceDemo Feladatok Nagy Tamas" id="s1" pass="1" fail="0" skip="0">SauceDemo Feladatok Nagy Tamas</stat>
-<stat name="Checkout validation" id="s1-s1" pass="1" fail="0" skip="0">SauceDemo Feladatok Nagy Tamas.Checkout validation</stat>
-</suite>
-</statistics>
-<errors>
-</errors>
-</robot>
+<test id="s1-s1-t2" name="Termék eltávolítása a kosárból" line="50">
+<kw name="Login To Saucedemo mainpage">
+<kw name="Open Browser" owner="Selenium2Library">
+<msg time="2026-03-23T08:37:27.337564" level="INFO">Opening browser 'firefox' to base url 'https://www.saucedemo.com/'.</msg>
+<arg>https://www.saucedemo.com/</arg>
+<arg>firefox</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-03-23T08:37:27.337186" elapsed="6.454945"/>
+</kw>
+<kw name="Input Text" owner="Selenium2Library">
+<msg time="2026-03-23T08:37:33.792755" level="INFO">Typing text 'standard_user' into text field 'id=user-name'.</msg>
+<msg time="2026-03-23T08:37:33.867609" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: WebDriver session does not exist, or is not active; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+InvalidSessionIDError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:469:5
+assert.that/&lt;@chrome://remote/content/shared/webdriver/Assert.sys.mjs:559:13
+assert.session@chrome://remote/content/shared/webdriver/Assert.sys.mjs:37:4
+despatch@chrome://remote/content/marionette/server.sys.mjs:315:19
+execute@chrome://remote/content/marionette/server.sys.mjs:289:16
+onPacket/&lt;@chrome://remote/content/marionette/server.sys.mjs:262:20
+onPacket@chrome://remote/content/marionette/server.sys.mjs:263:9
+_onJSONObjectReady/&lt;@chrome://remote/content/marionette/transport.sys.mjs:494:20
+</msg>
+<msg time="2026-03-23T08:37:33.884219" level="FAIL">InvalidSessionIdException: Message: WebDriver session does not exist, or is not active; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+InvalidSessionIDError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:469:5
+assert.that/&lt;@chrome://remote/content/shared/webdriver/Assert.sys.mjs:559:13
+assert.session@chrome://remote/content/shared/webdriver/Assert.sys.mjs:37:4
+despatch@chrome://remote/content/marionette/server.sys.mjs:315:19
+execute@chrome://remote/content/marionette/server.sys.mjs:289:16
+onPacket/&lt;@chrome://remote/content/marionette/server.sys.mjs:262:20
+onPacket@chrome://remote/content/marionette/server.sys.mjs:263:9
+_onJSONObjectReady/&lt;@chrome://remote/content/marionette/transport.sys.mjs:494:20
+</msg>
+<arg>id=user-name</arg>
+<arg>standard_user</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="FAIL" start="2026-03-23T08:37:33.792345" elapsed="0.111509">InvalidSessionIdException: Message: WebDriver session does not exist, or is not active; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+InvalidSessionIDError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:469:5
+assert.that/&lt;@chrome://remote/content/shared/webdriver/Assert.sys.mjs:559:13
+assert.session@chrome://remote/content/shared/webdriver/Assert.sys.mjs:37:4
+despatch@chrome://remote/content/marionette/server.sys.mjs:315:19
+execute@chrome://remote/content/marionette/server.sys.mjs:289:16
+onPacket/&lt;@chrome://remote/content/marionette/server.sys.mjs:262:20
+onPacket@chrome://remote/content/marionette/server.sys.mjs:263:9
+_onJSONObjectReady/&lt;@chrome://remote/content/marionette/transport.sys.mjs:494:20
+</status>
+</kw>
+<kw name="Input Password" owner="Selenium2Library">
+<arg>id=password</arg>
+<arg>secret_sauce</arg>
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" start="2026-03-23T08:37:33.904115" elapsed="0.000152"/>
+</kw>
+<kw name="Click Button" owner="Selenium2Library">
+<arg>id=login-button</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="NOT RUN" start="2026-03-23T08:37:33.904402" elapsed="0.000103"/>
+</kw>
+<status status="FAIL" start="2026-03-23T08:37:27.336614" elapsed="6.568043">InvalidSessionIdException: Message: WebDriver session does not exist, or is not active; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+InvalidSessionIDError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:469:5
+assert.that/&lt;@chrome://remote/content/shared/webdriver/Assert.sys.mjs:559:13
+assert.session@chrome://remote/content/shared/webdriver/Assert.sys.mjs:37:4
+despatch@chrome://remote/content/marionette/server.sys.mjs:315:19
+execute@chrome://remote/content/marionette/server.sys.mjs:289:16
+onPacket/&lt;@chrome://remote/content/marionette/server.sys.mjs:262:20
+onPacket@chrome://remote/content/marionette/server.sys.mjs:263:9
+_onJSONObjectReady/&lt;@chrome://remote/content/marionette/transport.sys.mjs:494:20
